@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.awesomematcha.collegeapp.ContactActivity">
+
+    <TextView
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="CONATCT US"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        tools:background="#AAA5A6"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp"></TextView>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#A0A655"
+        android:text="Ashok De(Ph.D in Physics)\nDirector\nMOB:9903632607"
+        android:textAlignment="textStart"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="63dp"></TextView>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#AA0A06"
+        android:text="Kalyan Adhikary(MSc. in Maths)\nChief Warden\nMOB:9836196426"
+        android:textAlignment="textStart"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="184dp"></TextView>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#A1A2A3"
+        android:text="Debashish Mitra(PH.D. in Computing)\nRegistrar\nMOB:9038735228"
+        android:textAlignment="textStart"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="353dp"></TextView>
+</android.support.constraint.ConstraintLayout>

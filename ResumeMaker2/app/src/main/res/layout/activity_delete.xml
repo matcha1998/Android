@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1a001a"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE RESUME"
+        android:textSize="25dp"
+        android:textColor="#ff66b3"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email to get the ID to delete your Resume"
+        android:id="@+id/del_email"
+        android:background="#8080ff"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="getID"
+        android:id="@+id/getIDBtn"
+        android:layout_marginTop="10dp"
+        android:background="#ff9933"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_gravity="end"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/delResult"
+        android:textStyle="bold"
+        android:textColor="#339933"
+        android:textSize="20dp"
+        android:layout_marginBottom="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the above ID to delete your resume"
+        android:id="@+id/del_id"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="10dp"
+        android:background="#8080ff"
+        android:layout_weight="0.10" />
+    <Button
+        android:id="@+id/delBtn"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#ff9933"
+        android:textColor="#ffffff"
+        android:text="delete"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Email ID must match the Email ID you used during the creation of your Resume!!"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:background="#ff4d4d"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:id="@+id/text"/>
+
+
+</LinearLayout>

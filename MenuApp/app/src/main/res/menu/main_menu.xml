@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="ABOUT US"
+        android:id="@+id/about"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:title="CONTACT US"
+        android:id="@+id/contact"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:title="SETTINGS"
+        android:id="@+id/settings"
+        app:showAsAction="never">
+    </item>
+</menu>

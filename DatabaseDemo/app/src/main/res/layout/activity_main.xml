@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/root_view"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert Data"
+        android:textSize="20dp"
+        android:id="@+id/insertBtn"
+        android:layout_marginTop="90dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Data"
+        android:textSize="20dp"
+        android:id="@+id/viewBtn"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Data"
+        android:textSize="20dp"
+        android:id="@+id/searchBtn"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Data"
+        android:textSize="20dp"
+        android:id="@+id/updateBtn"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Data"
+        android:textSize="20dp"
+        android:id="@+id/deleteBtn"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

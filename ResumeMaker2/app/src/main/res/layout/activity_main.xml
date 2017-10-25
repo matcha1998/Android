@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1a001a"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO THE RESUME CREATION APP"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:background="#cc0000"
+        android:padding="10dp"
+        android:textColor="#e6e600"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="create resume"
+        android:id="@+id/createBtn"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:background="#ff9933"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="view resume"
+        android:textSize="20dp"
+        android:id="@+id/viewBtn"
+        android:textColor="#ffffff"
+        android:background="#ff9933"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="delete resume"
+        android:textSize="20dp"
+        android:id="@+id/deleteBtn"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:background="#ff9933"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

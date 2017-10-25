@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#1a001a"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="VIEW RESUME"
+            android:textStyle="bold"
+            android:textColor="#ff66b3"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Email Id to View your Resume"
+            android:id="@+id/view_email"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:textStyle="bold|italic"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000000"
+            android:background="#8080ff"
+            android:layout_weight="0.05"/>
+        <Button
+            android:id="@+id/view_Btn"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#ff9933"
+            android:text="VIEW"
+            android:textColor="#ffffff"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Email ID must match the Email ID you used during the creation of your Resume!!"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            android:textSize="25dp"
+            android:textAllCaps="false"
+            android:background="#ff4d4d"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:id="@+id/text"/>
+</LinearLayout>
